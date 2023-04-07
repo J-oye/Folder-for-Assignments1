@@ -13,7 +13,7 @@ public class Application {
         switch (language){
             case 1 -> System.out.println("English");
             case 2 -> System.out.println("Yoruba");
-            case 3 -> System.out.println("Ibgo");
+            case 3 -> System.out.println("Igbo");
             case 4 -> System.out.println("Hausa");
 
             }
@@ -23,5 +23,5 @@ public class Application {
 
 
 
-    }
-//}
+   // }
+}

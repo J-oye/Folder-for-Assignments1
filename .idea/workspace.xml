@@ -4,27 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/JavaPassByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PassByReference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AirConditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AirConditioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassWork2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassWork2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassWork3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassWork3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NokiaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NokiaMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Television.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestDriller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDriller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/Arithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/ComparingIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/ComparingIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/PrintingExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/PrintingExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tdd/Pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/Pyramid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/AirConditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/AirConditionerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BikeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TelevisionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TelevisionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TestDrillerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestDrillerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +47,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/javaProjects/src/Assigments&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -80,42 +65,58 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Assigments" />
+      <recent name="A" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NokiaMenu">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Application" />
+  <component name="RunManager" selected="Application.PassByReference">
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assigments.Array" />
+      <module name="javaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assigments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaPassByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPassByValue" />
       <module name="javaProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassWork" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="javaProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassWork2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassWork2" />
+    <configuration name="MinimumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assigments.MinimumArray" />
       <module name="javaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assigments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassWork3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassWork3" />
-      <module name="javaProjects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NokiaMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NokiaMenu" />
+    <configuration name="PassByReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PassByReference" />
       <module name="javaProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NokiaMenu" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.ClassWork3" />
-        <item itemvalue="Application.ClassWork2" />
-        <item itemvalue="Application.ClassWork" />
+        <item itemvalue="Application.PassByReference" />
+        <item itemvalue="Application.JavaPassByValue" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MinimumArray" />
+        <item itemvalue="Application.Array" />
       </list>
     </recent_temporary>
   </component>
@@ -144,8 +145,29 @@
       <workItem from="1680107718486" duration="44000" />
       <workItem from="1680107867357" duration="20000" />
       <workItem from="1680133153349" duration="38423000" />
-      <workItem from="1680750303644" duration="54409000" />
+      <workItem from="1680750303644" duration="69288000" />
+      <workItem from="1680950897839" duration="5608000" />
+      <workItem from="1680958253248" duration="346000" />
+      <workItem from="1680958624315" duration="38823000" />
+      <workItem from="1681393753063" duration="12073000" />
+      <workItem from="1681751229573" duration="10653000" />
+      <workItem from="1681914609872" duration="120000" />
+      <workItem from="1681917454480" duration="4526000" />
+      <workItem from="1682089812765" duration="74000" />
+      <workItem from="1682089918956" duration="10444000" />
+      <workItem from="1683021699311" duration="12758000" />
+      <workItem from="1683111658530" duration="36556000" />
+      <workItem from="1683292053491" duration="7648000" />
+      <workItem from="1683475128192" duration="21837000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1683722166618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683722166618</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +183,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="on progress" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

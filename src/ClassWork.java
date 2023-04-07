@@ -29,3 +29,4 @@ public class ClassWork {
         System.out.println(sum);
     }
 }
+
