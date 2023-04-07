@@ -1,21 +1,30 @@
 public class Bike {
-private int Speed;
-    public void isOn(boolean b){
+private boolean isOn;
+    private int speed;
+
+    public void toggleOn(boolean isOn){
+        this.isOn = isOn;
+    }
+    public boolean isOn() {
+        return isOn;
     }
 
-    public void isOff(boolean b) {
 
+    public int accelerate(int speed){
+        if(isOn==true)this.speed =speed+1;
+        else this.speed = 0;
+        return speed;
     }
-
-
-    public int setgear(int gear1, int gear2, int gear3) {
-       if(gear1 ==15) Speed = gear1 + 1;
-       else if (gear2==24) {Speed = gear2 +2;
-       }
-        return Speed;
-    }.
+    public int deccelerate(int speed){
+        if(isOn==true)this.speed =speed-1;
+        else this.speed = 0;
+        return speed;
+    }
 
     public int getSpeed() {
-        return Speed;
+        if (speed > 14 && speed < 44)
+
+            return speed;
+        return speed;
     }
 }

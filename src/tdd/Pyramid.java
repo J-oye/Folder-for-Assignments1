@@ -1,7 +1,5 @@
 package tdd;
 
-import java.util.Scanner;
-
 /**public class Numbers{
     public static void main(String[] args) {
       /**  Scanner input= new Scanner(System.in);
@@ -50,13 +48,19 @@ import java.util.Scanner;
         }
     }*/
 
-  public class Pyrimid{
+  public class Pyramid {
       public static void main(String[] args){
-          int sum = 7;
           int j = 0;
-          while(j<=7)
-              System.out.println("*");
-          j+=2;
+          while(j<7){
+              int i = 0;
+                      while(i<=j){
+                          System.out.print("*");
+                          i++;
+                      }
+              System.out.println();
+                      j++;
+          }
+
 
           }
       }

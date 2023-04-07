@@ -1,24 +1,30 @@
 public class AirConditioner {
+    private boolean isOn;
+   private int temperature;
 
-    public void isOn(boolean b) {
-        System.out.println(" Welcome..");
+    public void toggleOn(boolean isOn){
+        this.isOn = isOn;
+    }
+    public boolean isOn() {
+        return isOn;
     }
 
-    public void isoff(boolean b) {
-        System.out.println("Goodbye");
+
+    public void increase(int temperature) {
+        if (isOn == true)this.temperature = temperature+1;
+        else this.temperature = 0;
     }
 
-    public void increased(boolean b) {
-        System.out.println("High");
+    public void decrease(int temperature) {
+        if(isOn==true)this.temperature =temperature-1;
+        else this.temperature = 0;
     }
 
-    public void decrease(boolean b) {
-        System.out.println("Low");
-    }
 
-    public void negative(boolean b) {
-        System.out.println("Cnan not go beyond 30");
-
+    public int getTemperature() {
+        if(temperature >15&&temperature <31)
+            return temperature;
+        else return 0;
     }
 }
 

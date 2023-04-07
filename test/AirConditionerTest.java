@@ -1,7 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class AirConditionerTest {
     @Test
@@ -10,63 +9,25 @@ public class AirConditionerTest {
         AirConditioner onAirconditioner = new AirConditioner();
 
         //when
-        onAirconditioner.isOn(true);
+        onAirconditioner.toggleOn(true);
 
         // assert
-        assertTrue(true);
-    }
-
-
-    @Test
-    public void AirConditionerTest2(){
-    //given
-    AirConditioner offAirConditioner = new AirConditioner();
-    //when
-     offAirConditioner.isoff(false) ;
-    // assert
-        assertFalse(false);
-
+        assertTrue(onAirconditioner.isOn());
     }
 
     @Test
-    public void AirConditionerTest3(){
-        //given
-        AirConditioner increaseTemperature = new AirConditioner();
-        //when
-        increaseTemperature.increased(true);
-        //asert
-        assertTrue(true);
+    public void increaseTemperatureTest(){
+        AirConditioner onAirconditioner = new AirConditioner();
+        onAirconditioner.toggleOn(true);
+        onAirconditioner.increase(16);
+        assertEquals(17, onAirconditioner.getTemperature());
     }
-
     @Test
-    public void  AirConditionerTest4(){
-        //given
-        AirConditioner decreaseTemperature = new AirConditioner();
-        //when
-        decreaseTemperature.decrease(true);
-        //assert
-        assertTrue(true);
-    }
-
-    @Test
-    public void AirConditionerTest5(){
-        //given
-        AirConditioner negativeIncreaseTemp = new AirConditioner();
-        //when
-        negativeIncreaseTemp.negative(false);
-        //assert
-        assertFalse(false);
-    }
-
-
-    @Test
-  public void AirConditionerTest6() {
-        //given
-        AirConditioner negativeDecreaseTemp = new AirConditioner();
-        //when
-        negativeDecreaseTemp.negative(false);
-        //assert
-        assertFalse(false);
+    public void decreaseTemperatureTest(){
+        AirConditioner onAirconditioner = new AirConditioner();
+        onAirconditioner.toggleOn(true);
+        onAirconditioner.decrease(30);
+        assertEquals(29,onAirconditioner.getTemperature());
     }
 }
 

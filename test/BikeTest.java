@@ -1,3 +1,4 @@
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -9,20 +10,9 @@ public class BikeTest {
         //given
         Bike honda = new Bike();
         //when
-        honda.isOn(true);
+        honda.toggleOn(true);
         //assert
-        assertTrue(true);
-
-    }
-
-    @Test
-    public void BikeisOffTest() {
-        //given
-        Bike honda = new Bike();
-        //when
-        honda.isOff(true);
-        //assert
-        assertTrue(true);
+        assertTrue(honda.isOn());
     }
 
     @Test
@@ -30,11 +20,21 @@ public class BikeTest {
         //given
         Bike honda = new Bike();
         //when
-        honda.setgear(1,2,3);
+        honda.toggleOn(true);
+        honda.accelerate(15);
         //assert
-        int gear1 =16;
-        int gear2 = 24;
         assertEquals(16,honda.getSpeed());
+    }
+
+    @Test
+    public void BikeCanBeDeccelerated(){
+        //given
+        Bike honda = new Bike();
+        //when
+        honda.toggleOn(true);
+        honda.deccelerate(16);
+        //assert
+        assertEquals(15,honda.getSpeed());
 
     }
 
