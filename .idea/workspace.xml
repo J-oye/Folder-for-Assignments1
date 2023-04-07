@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AirConditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AirConditioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassWork2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassWork2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassWork3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassWork3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NokiaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NokiaMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Television.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestDriller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDriller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/Arithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/ComparingIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/ComparingIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/PrintingExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/PrintingExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tdd/Pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/Pyramid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/AirConditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/AirConditionerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BikeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TelevisionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TelevisionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TestDrillerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestDrillerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +125,7 @@
       <workItem from="1680107718486" duration="44000" />
       <workItem from="1680107867357" duration="20000" />
       <workItem from="1680133153349" duration="38423000" />
-      <workItem from="1680750303644" duration="54409000" />
+      <workItem from="1680750303644" duration="55853000" />
     </task>
     <servers />
   </component>
