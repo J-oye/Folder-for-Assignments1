@@ -1,0 +1,1162 @@
+Index: test/ArrayExercise.java
+===================================================================
+diff --git a/test/ArrayExercise.java b/test/ArrayExercise.java
+deleted file mode 100644
+--- a/test/ArrayExercise.java	(revision e805c8b7192808f3db7c5ac83705699254a953ee)
++++ /dev/null	(revision e805c8b7192808f3db7c5ac83705699254a953ee)
+@@ -1,13 +0,0 @@
+-import org.junit.jupiter.api.Test;
+-
+-public class ArrayExercise {
+-
+-    @Test
+-public void arrays(){
+-        int[]numbers = new int[10];
+-
+-
+-
+-
+-}
+-
+Index: src/Arrayssss.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Arrayssss.java b/src/Arrayssss.java
+new file mode 100644
+--- /dev/null	(date 1683732858648)
++++ b/src/Arrayssss.java	(date 1683732858648)
+@@ -0,0 +1,23 @@
++public class Arrayssss {
++    public static void main(String[] args) {
++        System.out.println(Arrayssss.add(1,2,10));
++        System.out.println(Arrayssss.sum(16,50,10,20));
++
++    }
++    public static int add(int...number){
++        int total = 0;
++        for (int num:number){
++            total += num;
++        }
++        return total;
++
++    }
++
++    public static double sum(double...digit){
++        double total = 0;
++        for (double dig : digit){
++            total += dig;
++        }
++        return total;
++    }
++}
+Index: src/CommandLineArgs.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/CommandLineArgs.java b/src/CommandLineArgs.java
+new file mode 100644
+--- /dev/null	(date 1683734526651)
++++ b/src/CommandLineArgs.java	(date 1683734526651)
+@@ -0,0 +1,6 @@
++public class CommandLineArgs {
++    public static void main(String[] args) {
++        System.out.println(args[0]);
++        System.out.println(args[0]);
++    }
++}
+Index: src/ArraySample3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Arrays;\n\npublic class ArraySample3 {\n    public static void main(String[] args) {\n        // create array:this is used when you already know the element of the array\n        int[]array = {0,0,50,0,0,80,0,0,0,0};\n        System.out.println(array.length);\n        System.out.println(Arrays.toString(array));\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ArraySample3.java b/src/ArraySample3.java
+--- a/src/ArraySample3.java	(revision e805c8b7192808f3db7c5ac83705699254a953ee)
++++ b/src/ArraySample3.java	(date 1683887700356)
+@@ -3,7 +3,7 @@
+ public class ArraySample3 {
+     public static void main(String[] args) {
+         // create array:this is used when you already know the element of the array
+-        int[]array = {0,0,50,0,0,80,0,0,0,0};
++        int[]array = {0,0,50,0,0,80,0,0,0,0};// called static declartion
+         System.out.println(array.length);
+         System.out.println(Arrays.toString(array));
+     }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"e830510d-3f41-41b2-b1cc-cd4975b25acd\" name=\"Changes\" comment=\"update\">\n      <change afterPath=\"$PROJECT_DIR$/src/JavaPassByValue.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/PassByReference.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JUnit5 Test Class\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2N6IBlCv7oTWz7I3KVvyTYYg1OA\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,\n    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,\n    &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/javaProjects/src/Assigments&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateClassDialog.RecentsKey\">\n      <recent name=\"tdd\" />\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\n      <recent name=\"Assigments\" />\n      <recent name=\"A\" />\n    </key>\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"\" />\n      <recent name=\"tdd\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.PassByReference\">\n    <configuration name=\"Array\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Assigments.Array\" />\n      <module name=\"javaProjects\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"Assigments.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"JavaPassByValue\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"JavaPassByValue\" />\n      <module name=\"javaProjects\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"javaProjects\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"MinimumArray\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Assigments.MinimumArray\" />\n      <module name=\"javaProjects\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"Assigments.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"PassByReference\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"PassByReference\" />\n      <module name=\"javaProjects\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.PassByReference\" />\n        <item itemvalue=\"Application.JavaPassByValue\" />\n        <item itemvalue=\"Application.Main\" />\n        <item itemvalue=\"Application.MinimumArray\" />\n        <item itemvalue=\"Application.Array\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"e830510d-3f41-41b2-b1cc-cd4975b25acd\" name=\"Changes\" comment=\"\" />\n      <created>1678977971975</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1678977971975</updated>\n      <workItem from=\"1678977973244\" duration=\"105593000\" />\n      <workItem from=\"1679644293935\" duration=\"61189000\" />\n      <workItem from=\"1680107718486\" duration=\"44000\" />\n      <workItem from=\"1680107867357\" duration=\"20000\" />\n      <workItem from=\"1680133153349\" duration=\"38423000\" />\n      <workItem from=\"1680750303644\" duration=\"69288000\" />\n      <workItem from=\"1680950897839\" duration=\"5608000\" />\n      <workItem from=\"1680958253248\" duration=\"346000\" />\n      <workItem from=\"1680958624315\" duration=\"38823000\" />\n      <workItem from=\"1681393753063\" duration=\"12073000\" />\n      <workItem from=\"1681751229573\" duration=\"10653000\" />\n      <workItem from=\"1681914609872\" duration=\"120000\" />\n      <workItem from=\"1681917454480\" duration=\"4526000\" />\n      <workItem from=\"1682089812765\" duration=\"74000\" />\n      <workItem from=\"1682089918956\" duration=\"10444000\" />\n      <workItem from=\"1683021699311\" duration=\"12758000\" />\n      <workItem from=\"1683111658530\" duration=\"36556000\" />\n      <workItem from=\"1683292053491\" duration=\"7648000\" />\n      <workItem from=\"1683475128192\" duration=\"21837000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"update\">\n      <created>1683722166618</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1683722166618</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"on progress\" />\n    <MESSAGE value=\"update\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"update\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\n          <url>file://$PROJECT_DIR$/test/tdd/AccountTest.java</url>\n          <line>70</line>\n          <properties class=\"tdd.AccountTest\" method=\"withdrawMoneyTest2\">\n            <option name=\"EMULATED\" value=\"true\" />\n            <option name=\"WATCH_EXIT\" value=\"false\" />\n          </properties>\n          <option name=\"timeStamp\" value=\"2\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\n          <url>file://$PROJECT_DIR$/test/tdd/AccountTest.java</url>\n          <line>78</line>\n          <properties class=\"tdd.AccountTest\" method=\"withdrawMoneyTest3\">\n            <option name=\"EMULATED\" value=\"true\" />\n            <option name=\"WATCH_EXIT\" value=\"false\" />\n          </properties>\n          <option name=\"timeStamp\" value=\"3\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/test/TelevisionTest.java</url>\n          <line>16</line>\n          <option name=\"timeStamp\" value=\"6\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e805c8b7192808f3db7c5ac83705699254a953ee)
++++ b/.idea/workspace.xml	(date 1684147365148)
+@@ -4,11 +4,39 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="update">
+-      <change afterPath="$PROJECT_DIR$/src/JavaPassByValue.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/PassByReference.java" afterDir="false" />
++    <list default="true" id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
++      <change afterPath="$PROJECT_DIR$/src/ArraySample4.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Arrayssss.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Assigments/ArrayElementsInOddPositions.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Assigments/ArrayElementsOfEvenPositions.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Assigments/ArrayReverseElement.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Assigments/CheckingForAnElementInAList.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Assigments/ComputingSunOfListWithLoops.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Assigments/FunctionThatComputesRunningTotalOfAList.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Assigments/FunctionThatConcatenatesTwoLists.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Assigments/FunctionThatReturnsList.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Assigments/LargestElementOfAList.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Assigments/PalindromeTestFunction.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/AverageExerciseWithArray.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/CommandLineArgs.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/SoftPractice/MathsFloor.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/SoftPractice/MethodAddition.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/SoftPractice/MethodDivision.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/SoftPractice/MethodForSubtraction.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/SoftPractice/RaisedToPower.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter6/MaximumFinder.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter6/ParkingCharges.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter6/RoundingNumbers1.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter6/RoundingNumbers2.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test/SoftPractice/MathsFloorTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test/SoftPractice/MethodAdditionTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test/SoftPractice/MethodDivisionTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test/SoftPractice/MethodForSubtractionTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test/SoftPractice/RaisedToPowerTest.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/ArraySample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySample3.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/test/ArrayExercise.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/test/Trick1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Trick1.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -25,6 +53,19 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="selectedUrlAndAccountId">
++      <UrlAndAccount>
++        <option name="accountId" value="7320383e-cd97-4777-b520-5e7a76ee2d45" />
++        <option name="url" value="https://github.com/JOSHUA-OYELEKE/Java-Assignment.git" />
++      </UrlAndAccount>
++    </option>
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -70,13 +111,14 @@
+       <recent name="A" />
+     </key>
+     <key name="CreateTestDialog.RecentsKey">
++      <recent name="SoftPractice" />
+       <recent name="" />
+       <recent name="tdd" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.PassByReference">
+-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Assigments.Array" />
++  <component name="RunManager" selected="Application.FunctionThatComputesRunningTotalOfAList">
++    <configuration name="ArrayElementsOfEvenPositions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Assigments.ArrayElementsOfEvenPositions" />
+       <module name="javaProjects" />
+       <extension name="coverage">
+         <pattern>
+@@ -88,22 +130,34 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="JavaPassByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="JavaPassByValue" />
++    <configuration name="ComputingSunOfListWithLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Assigments.ComputingSunOfListWithLoops" />
+       <module name="javaProjects" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="Assigments.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Main" />
++    <configuration name="FunctionThatComputesRunningTotalOfAList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Assigments.FunctionThatComputesRunningTotalOfAList" />
+       <module name="javaProjects" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="Assigments.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="MinimumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Assigments.MinimumArray" />
++    <configuration name="FunctionThatConcatenatesTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Assigments.FunctionThatConcatenatesTwoLists" />
+       <module name="javaProjects" />
+       <extension name="coverage">
+         <pattern>
+@@ -115,20 +169,26 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="PassByReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="PassByReference" />
++    <configuration name="FunctionThatReturnsList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Assigments.FunctionThatReturnsList" />
+       <module name="javaProjects" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="Assigments.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.PassByReference" />
+-        <item itemvalue="Application.JavaPassByValue" />
+-        <item itemvalue="Application.Main" />
+-        <item itemvalue="Application.MinimumArray" />
+-        <item itemvalue="Application.Array" />
++        <item itemvalue="Application.FunctionThatComputesRunningTotalOfAList" />
++        <item itemvalue="Application.ComputingSunOfListWithLoops" />
++        <item itemvalue="Application.FunctionThatReturnsList" />
++        <item itemvalue="Application.FunctionThatConcatenatesTwoLists" />
++        <item itemvalue="Application.ArrayElementsOfEvenPositions" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -158,7 +218,8 @@
+       <workItem from="1683021699311" duration="12758000" />
+       <workItem from="1683111658530" duration="36556000" />
+       <workItem from="1683292053491" duration="7648000" />
+-      <workItem from="1683475128192" duration="21837000" />
++      <workItem from="1683475128192" duration="27694000" />
++      <workItem from="1683836242501" duration="61864000" />
+     </task>
+     <task id="LOCAL-00001" summary="update">
+       <created>1683722166618</created>
+@@ -167,7 +228,42 @@
+       <option name="project" value="LOCAL" />
+       <updated>1683722166618</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="update">
++      <created>1683726194872</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1683726194872</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
++      <created>1683726289255</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1683726289255</updated>
++    </task>
++    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
++      <created>1683726638270</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1683726638270</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/main'">
++      <created>1683726712123</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1683726712123</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/main'">
++      <created>1684147364689</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1684147364689</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -187,7 +283,9 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="on progress" />
+     <MESSAGE value="update" />
+-    <option name="LAST_COMMIT_MESSAGE" value="update" />
++    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
++    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
++    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: src/deitel/Chapter6/MaximumFinder.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/deitel/Chapter6/MaximumFinder.java b/src/deitel/Chapter6/MaximumFinder.java
+new file mode 100644
+--- /dev/null	(date 1683779222823)
++++ b/src/deitel/Chapter6/MaximumFinder.java	(date 1683779222823)
+@@ -0,0 +1,31 @@
++package deitel.Chapter6;
++
++import java.util.Scanner;
++
++public class MaximumFinder {
++    public static void main(String[] args) {
++        Scanner input = new Scanner(System.in);
++        System.out.println("Enter three floating point values seperated by spaces:");
++        double number1 = input.nextDouble();
++        double number2 = input.nextDouble();
++        double number3 = input.nextDouble();
++
++        double result = maximum(number1,number2,number3);
++
++        System.out.println("Maximum is" + result);
++    }
++
++    public static double maximum(double x,double y, double z){
++        double maximumValue = x;
++
++        if (y > maximumValue){
++            maximumValue = y;
++        }
++
++        if (z > maximumValue){
++            maximumValue = z;
++        }
++        return maximumValue;
++    }
++
++}
+Index: src/SoftPractice/MethodForSubtraction.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/SoftPractice/MethodForSubtraction.java b/src/SoftPractice/MethodForSubtraction.java
+new file mode 100644
+--- /dev/null	(date 1683841039907)
++++ b/src/SoftPractice/MethodForSubtraction.java	(date 1683841039907)
+@@ -0,0 +1,17 @@
++package SoftPractice;
++
++public class MethodForSubtraction {
++    public static void main(String[] args) {
++
++    }
++    public int subtraction(int a,int c){
++        int resultOf = a - c;
++        if (a > c){
++         resultOf = a - c;
++        }
++        if (c > a){
++            resultOf =c - a;
++        }
++        return resultOf;
++    }
++}
+Index: test/SoftPractice/MethodForSubtractionTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test/SoftPractice/MethodForSubtractionTest.java b/test/SoftPractice/MethodForSubtractionTest.java
+new file mode 100644
+--- /dev/null	(date 1683841558791)
++++ b/test/SoftPractice/MethodForSubtractionTest.java	(date 1683841558791)
+@@ -0,0 +1,26 @@
++package SoftPractice;
++
++import org.junit.jupiter.api.Test;
++
++import static org.junit.jupiter.api.Assertions.*;
++
++class MethodForSubtractionTest {
++
++    MethodForSubtraction subtract = new MethodForSubtraction();
++    @Test
++   public void checkIfSubtractionIsPossible(){
++        // when
++        int resultOf = subtract.subtraction(20,50);
++        // assert
++        assertEquals(30,resultOf);
++    }
++
++    @Test
++    public void checkForNegativeSubtraction(){
++        int outComeOf = subtract.subtraction(-10,-30);
++        assertEquals(20,outComeOf);
++    }
++
++
++
++}
+\ No newline at end of file
+Index: src/SoftPractice/MethodDivision.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/SoftPractice/MethodDivision.java b/src/SoftPractice/MethodDivision.java
+new file mode 100644
+--- /dev/null	(date 1683845978671)
++++ b/src/SoftPractice/MethodDivision.java	(date 1683845978671)
+@@ -0,0 +1,19 @@
++package SoftPractice;
++
++public class MethodDivision {
++    public static void main(String[] args) {
++
++    }
++
++    public int division(int num, int dig ){
++        int divisionResult = 0;
++        if (num > dig){
++            divisionResult = num / dig;
++        }else
++         if (dig > num){
++             divisionResult = dig / num ;
++         }
++        return divisionResult;
++
++    }
++}
+Index: test/SoftPractice/MethodDivisionTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test/SoftPractice/MethodDivisionTest.java b/test/SoftPractice/MethodDivisionTest.java
+new file mode 100644
+--- /dev/null	(date 1683845639659)
++++ b/test/SoftPractice/MethodDivisionTest.java	(date 1683845639659)
+@@ -0,0 +1,17 @@
++package SoftPractice;
++
++import org.junit.jupiter.api.Test;
++
++import static org.junit.jupiter.api.Assertions.*;
++
++class MethodDivisionTest {
++
++    @Test
++    public void testIfDivisionIsPossible(){
++        MethodDivision divide = new MethodDivision();
++        int divisionResult = divide.division(10,100);
++        assertEquals(10,divisionResult);
++
++    }
++
++}
+\ No newline at end of file
+Index: src/SoftPractice/RaisedToPower.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/SoftPractice/RaisedToPower.java b/src/SoftPractice/RaisedToPower.java
+new file mode 100644
+--- /dev/null	(date 1683850840915)
++++ b/src/SoftPractice/RaisedToPower.java	(date 1683850840915)
+@@ -0,0 +1,19 @@
++package SoftPractice;
++
++public class RaisedToPower {
++    public static void main(String[] args) {
++
++    }
++
++    public int raiseNumber(int x,int y) {
++        int squareOf = 1;
++        for (int i =0;i < y;i++){
++            if (x > 0 && y > 0 ){
++                squareOf = squareOf * x;
++            }
++        }
++        return squareOf;
++        //x ** y;
++        //return squareOf;
++    }
++}
+Index: test/SoftPractice/RaisedToPowerTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test/SoftPractice/RaisedToPowerTest.java b/test/SoftPractice/RaisedToPowerTest.java
+new file mode 100644
+--- /dev/null	(date 1683850944627)
++++ b/test/SoftPractice/RaisedToPowerTest.java	(date 1683850944627)
+@@ -0,0 +1,21 @@
++package SoftPractice;
++
++import org.junit.jupiter.api.Test;
++
++import static org.junit.jupiter.api.Assertions.*;
++
++class RaisedToPowerTest {
++    RaisedToPower pow = new RaisedToPower();
++    @Test
++    public void checkThatANumberIsRaised(){
++        int sqrt = pow.raiseNumber(5,3);
++        assertEquals(125,sqrt);
++    }
++
++    @Test
++    public void negativeNumberRaised(){
++        int powerOf = pow.raiseNumber(-5,-3);
++        assertEquals(1.0,powerOf);
++
++    }
++}
+\ No newline at end of file
+Index: src/SoftPractice/MathsFloor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/SoftPractice/MathsFloor.java b/src/SoftPractice/MathsFloor.java
+new file mode 100644
+--- /dev/null	(date 1683897457352)
++++ b/src/SoftPractice/MathsFloor.java	(date 1683897457352)
+@@ -0,0 +1,16 @@
++package SoftPractice;
++
++public class MathsFloor {
++    public static void main(String[] args) {
++        System.out.println(round(10.9));
++    }
++
++    public  static double round(double x) {
++        int nearestIntegerValue =1;
++        for (int i = 0; i < x; i++) {
++            nearestIntegerValue = i % 100 ;
++        }
++        return nearestIntegerValue;
++
++    }
++}
+Index: test/SoftPractice/MathsFloorTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test/SoftPractice/MathsFloorTest.java b/test/SoftPractice/MathsFloorTest.java
+new file mode 100644
+--- /dev/null	(date 1683856538535)
++++ b/test/SoftPractice/MathsFloorTest.java	(date 1683856538535)
+@@ -0,0 +1,15 @@
++package SoftPractice;
++
++import org.junit.jupiter.api.Test;
++
++import static org.junit.jupiter.api.Assertions.*;
++
++class MathsFloorTest {
++    @Test
++    public void checkThatNumberIsRoundedToNearestIntegerValue(){
++        MathsFloor math = new MathsFloor();
++       double nearestInteger = math.round(-3.9);
++       assertEquals(-4,nearestInteger);
++    }
++
++}
+\ No newline at end of file
+Index: src/ArraySample4.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ArraySample4.java b/src/ArraySample4.java
+new file mode 100644
+--- /dev/null	(date 1683892826388)
++++ b/src/ArraySample4.java	(date 1683892826388)
+@@ -0,0 +1,27 @@
++import java.util.Arrays;
++
++public class ArraySample4 {
++    public static void main(String[] args) {
++        int[][] arr = new int[5][];
++        arr[0] = new int[5];
++        arr[1] = new int[3];
++        arr[2] = new int[10];
++        arr[3] = new int[]{400,500};
++        arr[4] = new int[5];
++
++        for (int index = 0; index < arr[0].length;index++){
++            arr[0][index] = index;
++           for (int num =1; num < arr[4].length;num++){
++                arr[4][index] = (index+ 1) * 100;
++
++            }
++
++        }
++        //System.out.println(Arrays.deepToString(arr));
++
++        System.out.println(Arrays.deepToString(arr));
++
++
++    }
++
++}
+Index: src/AverageExerciseWithArray.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/AverageExerciseWithArray.java b/src/AverageExerciseWithArray.java
+new file mode 100644
+--- /dev/null	(date 1683901648176)
++++ b/src/AverageExerciseWithArray.java	(date 1683901648176)
+@@ -0,0 +1,19 @@
++import java.util.Scanner;
++
++public class AverageExerciseWithArray {
++    public static void main(String[] args) {
++        Scanner input = new Scanner(System.in);
++        int[]aver = new int[5];
++        int average;
++        int num;
++        int total = 0;
++        for (int index = 0;index < aver.length;index++){
++            System.out.println("please enter a number :");
++            num  =input.nextInt();
++            total += num;
++            average = total /aver[index];
++            System.out.println(average);
++
++        }
++    }
++}
+Index: src/deitel/Chapter6/ParkingCharges.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/deitel/Chapter6/ParkingCharges.java b/src/deitel/Chapter6/ParkingCharges.java
+new file mode 100644
+--- /dev/null	(date 1683941272164)
++++ b/src/deitel/Chapter6/ParkingCharges.java	(date 1683941272164)
+@@ -0,0 +1,16 @@
++package deitel.Chapter6;
++
++public class ParkingCharges {
++    public static void main(String[] args) {
++
++    }
++
++
++    public int customerPrecious(int hour){
++        hour = 4;
++        return 0;
++
++
++
++    }
++}
+Index: src/deitel/Chapter6/RoundingNumbers1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/deitel/Chapter6/RoundingNumbers1.java b/src/deitel/Chapter6/RoundingNumbers1.java
+new file mode 100644
+--- /dev/null	(date 1683941322084)
++++ b/src/deitel/Chapter6/RoundingNumbers1.java	(date 1683941322084)
+@@ -0,0 +1,21 @@
++package deitel.Chapter6;
++
++import SoftPractice.MathsFloor;
++
++import java.util.Scanner;
++
++public class RoundingNumbers1 {
++    public static void main(String[] args) {
++        System.out.println(RoundingNumbers1.roundNumber());
++
++    }
++
++    public static double roundNumber(){
++        Scanner input = new Scanner(System.in);
++        System.out.println("please enter a number with decimal values.");
++        double numbers = input.nextDouble();
++         numbers = Math.floor(numbers-0.5);
++         return numbers ;
++
++    }
++}
+Index: src/deitel/Chapter6/RoundingNumbers2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/deitel/Chapter6/RoundingNumbers2.java b/src/deitel/Chapter6/RoundingNumbers2.java
+new file mode 100644
+--- /dev/null	(date 1683942995520)
++++ b/src/deitel/Chapter6/RoundingNumbers2.java	(date 1683942995520)
+@@ -0,0 +1,34 @@
++package deitel.Chapter6;
++
++public class RoundingNumbers2 {
++    public static void main(String[] args) {
++        System.out.println(RoundingNumbers2.roundToInteger(8.7638945));
++        System.out.println(RoundingNumbers2.roundToTenths(489.00345));
++        System.out.println(RoundingNumbers2.roundToHundreds(600000000));
++        System.out.println(RoundingNumbers2.roundToThousands(3.836));
++
++    }
++
++    public  static double roundToInteger(double x){
++        double num= Math.floor(x-0.5);
++        return num;
++
++    }
++    public static double roundToTenths(double x){
++        double z = Math.floor(x * 10 + 0.5)/10;
++        return z;
++
++    }
++
++    public static double roundToHundreds(double x){
++        double dig = Math.floor(x * 100 + 0.5)/100;
++        return dig;
++
++    }
++
++    public static double roundToThousands(double x){
++        double score = Math.floor(x * 10000 + 0.5)/1000;
++        return score;
++
++    }
++}
+Index: src/Assigments/LargestElementOfAList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Assigments/LargestElementOfAList.java b/src/Assigments/LargestElementOfAList.java
+new file mode 100644
+--- /dev/null	(date 1684015093726)
++++ b/src/Assigments/LargestElementOfAList.java	(date 1684015093726)
+@@ -0,0 +1,22 @@
++package Assigments;
++
++import java.util.Arrays;
++
++public class LargestElementOfAList {
++    public static void main(String[] args) {
++        int[]largest =new int[5];
++
++        int max = largest[0];
++
++        for (int index = 0; index < largest.length; index++) {
++            largest[index] = (index +1) * 10;
++            if (largest[index]>max){
++                max = largest[index];
++            }
++
++        }
++        System.out.println(Arrays.toString(largest));
++        System.out.println("the largest element of the array is: "+max);
++
++    }
++}
+Index: src/Assigments/ArrayReverseElement.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Assigments/ArrayReverseElement.java b/src/Assigments/ArrayReverseElement.java
+new file mode 100644
+--- /dev/null	(date 1684016688592)
++++ b/src/Assigments/ArrayReverseElement.java	(date 1684016688592)
+@@ -0,0 +1,22 @@
++package Assigments;
++
++import java.util.Arrays;
++
++public class ArrayReverseElement {
++    public static void main(String[] args) {
++        int[] largest = new int[5];
++
++        for (int index = 0; index < largest.length; index++) {
++            largest[index] = (index+1) * 5;
++        }
++        System.out.println(Arrays.toString(largest));
++
++        for (int i = largest.length-1; i >= 0; i--) {
++            System.out.println(largest[i]);
++        }
++
++
++
++
++    }
++}
+Index: src/Assigments/CheckingForAnElementInAList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Assigments/CheckingForAnElementInAList.java b/src/Assigments/CheckingForAnElementInAList.java
+new file mode 100644
+--- /dev/null	(date 1684022983445)
++++ b/src/Assigments/CheckingForAnElementInAList.java	(date 1684022983445)
+@@ -0,0 +1,16 @@
++package Assigments;
++
++import java.util.Arrays;
++
++public class CheckingForAnElementInAList {
++    public static void main(String[] args) {
++        int[]arr =new int[3];
++
++        for (int index = 0; index < arr.length; index++) {
++            arr[index] = (index + 1) * 1000;
++        }
++        System.out.println(Arrays.toString(arr));
++
++        //TODO//
++    }
++}
+Index: src/Assigments/ArrayElementsInOddPositions.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Assigments/ArrayElementsInOddPositions.java b/src/Assigments/ArrayElementsInOddPositions.java
+new file mode 100644
+--- /dev/null	(date 1684147358356)
++++ b/src/Assigments/ArrayElementsInOddPositions.java	(date 1684147358356)
+@@ -0,0 +1,21 @@
++package Assigments;
++
++import java.util.Arrays;
++
++public class ArrayElementsInOddPositions {
++    public static void main(String[] args) {
++        int[]odd = new int[10];
++        System.out.println(oddPositions([i]));
++    }
++    public static int oddPositions(int[]odd){
++        for (int index = 0; index < odd.length; index++) {
++            odd[index] = index + 1;
++        }
++        System.out.println(Arrays.toString(odd));
++
++        for (int i = 0; i < odd.length;i=i+2) {
++            System.out.println(odd[i]);
++        }
++        ;
++    }
++}
+Index: src/Assigments/ArrayElementsOfEvenPositions.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Assigments/ArrayElementsOfEvenPositions.java b/src/Assigments/ArrayElementsOfEvenPositions.java
+new file mode 100644
+--- /dev/null	(date 1684022819458)
++++ b/src/Assigments/ArrayElementsOfEvenPositions.java	(date 1684022819458)
+@@ -0,0 +1,18 @@
++package Assigments;
++
++import java.util.Arrays;
++
++public class ArrayElementsOfEvenPositions {
++    public static void main(String[] args) {
++        int[]even = new int[10];
++        for (int index = 0; index < even.length; index++) {
++            even[index] = index + 1;
++        }
++        System.out.println(Arrays.toString(even));
++
++        for (int i = 1; i < even.length;i=i+2) {
++            System.out.println(even[i]);
++        }
++
++    }
++}
+Index: src/Assigments/FunctionThatComputesRunningTotalOfAList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Assigments/FunctionThatComputesRunningTotalOfAList.java b/src/Assigments/FunctionThatComputesRunningTotalOfAList.java
+new file mode 100644
+--- /dev/null	(date 1684142087930)
++++ b/src/Assigments/FunctionThatComputesRunningTotalOfAList.java	(date 1684142087930)
+@@ -0,0 +1,18 @@
++package Assigments;
++
++import java.util.Arrays;
++
++public class FunctionThatComputesRunningTotalOfAList {
++    public static void main(String[] args) {
++        int[] arr = {10, 20, 50, 40, 100, 200, 500};
++        int total = 0;
++        System.out.println(computeTotalOfAList(arr,total));
++    }
++
++    public static int computeTotalOfAList(int[] arr, int total) {
++        for (int index = 0; index < arr.length; index++) {
++            total += arr[index];
++        }
++        return total;
++    }
++}
+Index: src/Assigments/PalindromeTestFunction.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Assigments/PalindromeTestFunction.java b/src/Assigments/PalindromeTestFunction.java
+new file mode 100644
+--- /dev/null	(date 1684089256871)
++++ b/src/Assigments/PalindromeTestFunction.java	(date 1684089256871)
+@@ -0,0 +1,22 @@
++package Assigments;
++
++public class PalindromeTestFunction {
++    public static void main(String[] args) {
++        String[] pal = {"radar"};
++
++
++
++    }
++
++    //public static String[]palindrome(String []pal){
++        //String reverseStr = "";
++       // int pallength = pal.length;
++        //for (int i = pallength-1; i >=0 ; i--) {
++
++
++        }
++
++
++
++    //}
++//}
+Index: src/Assigments/FunctionThatConcatenatesTwoLists.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Assigments/FunctionThatConcatenatesTwoLists.java b/src/Assigments/FunctionThatConcatenatesTwoLists.java
+new file mode 100644
+--- /dev/null	(date 1684085179808)
++++ b/src/Assigments/FunctionThatConcatenatesTwoLists.java	(date 1684085179808)
+@@ -0,0 +1,26 @@
++package Assigments;
++
++import java.lang.reflect.Array;
++import java.util.Arrays;
++
++public class FunctionThatConcatenatesTwoLists {
++    public static void main(String[] args) {
++        int[] arr ={10,12,20};
++        int []array = {1,2,3};
++        System.out.println(merge(arr,array));
++    }
++
++
++    public static String merge(int []arr, int[] array){
++        int[] merge = new int[arr.length + array.length];
++
++        for (int index = 0; index < arr.length; index++) {
++            merge[index] =arr[index];
++        }
++        for (int i =0; i < array.length; i++) {
++            merge[i] = array[i];
++        }
++        return Arrays.toString(merge);
++    }
++
++}
+Index: src/Assigments/FunctionThatReturnsList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Assigments/FunctionThatReturnsList.java b/src/Assigments/FunctionThatReturnsList.java
+new file mode 100644
+--- /dev/null	(date 1684090426415)
++++ b/src/Assigments/FunctionThatReturnsList.java	(date 1684090426415)
+@@ -0,0 +1,22 @@
++package Assigments;
++
++import java.util.Arrays;
++import java.util.Scanner;
++
++public class FunctionThatReturnsList {
++    public static void main(String[] args) {
++
++        System.out.println(returnNumberAsAList(2342));
++
++
++    }
++    public static String returnNumberAsAList(int num){
++        Scanner input = new Scanner(System.in);
++       // int[] num ={input.nextInt()};
++        int []list1 = new int[]{num};
++        return Arrays.toString(list1);
++
++
++
++    }
++}
+Index: src/Assigments/ComputingSunOfListWithLoops.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Assigments/ComputingSunOfListWithLoops.java b/src/Assigments/ComputingSunOfListWithLoops.java
+new file mode 100644
+--- /dev/null	(date 1684091642211)
++++ b/src/Assigments/ComputingSunOfListWithLoops.java	(date 1684091642211)
+@@ -0,0 +1,31 @@
++package Assigments;
++
++import java.util.Arrays;
++
++public class ComputingSunOfListWithLoops {
++    public static void main(String[] args) {
++        int[]arr ={10,20,50,40,100,200,500};
++        int total = 0;
++        System.out.print("The sum of the element is:");
++        System.out.println(computeSumWithForLoop(arr,total));
++        System.out.print("The sum of the element is:");
++        System.out.println(computeSumWithWhileLoop(arr,total));
++    }
++    public static int computeSumWithForLoop(int[] arr,int total){
++
++        for (int index = 0; index < arr.length; index++) {
++            total +=arr[index];
++        }
++        return total;
++    }
++    public static int computeSumWithWhileLoop(int[]arr,int total){
++        int index = 0;
++        while (index <arr.length ){
++            total += arr[index];
++            index++;
++        }
++            return total;
++
++
++    }
++}
+Index: test/SoftPractice/MethodAdditionTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test/SoftPractice/MethodAdditionTest.java b/test/SoftPractice/MethodAdditionTest.java
+new file mode 100644
+--- /dev/null	(date 1683843813471)
++++ b/test/SoftPractice/MethodAdditionTest.java	(date 1683843813471)
+@@ -0,0 +1,31 @@
++package SoftPractice;
++
++import org.junit.jupiter.api.Test;
++
++import static org.junit.jupiter.api.Assertions.*;
++
++class MethodAdditionTest {
++
++    MethodAddition add = new MethodAddition();
++    @Test
++    public void testForSummation(){
++        //  when
++        int sumOf = add.addition(10,5);
++        //  assert
++        assertEquals(15,sumOf);
++    }
++
++    @Test
++    public void testForNegativeNumberSummation(){
++        int sumOf = add.addition(-20,-5);
++        assertEquals(-0,sumOf);
++    }
++
++    @Test
++    public void testForActualSummation(){
++        int sumOf = add.addition(20,7);
++        assertEquals(27,sumOf);
++    }
++
++
++}
+\ No newline at end of file
+Index: test/Trick1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import org.junit.jupiter.api.Test;\n\nimport java.util.Scanner;\n\n\npublic class Trick1 {\n    @Test\n    public void setName(){\n        String name;\n     name= input.nextLine();\n        System.out.println(\"what is your name\");\n        System.out.println(\"name\");\n\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test/Trick1.java b/test/Trick1.java
+--- a/test/Trick1.java	(revision e805c8b7192808f3db7c5ac83705699254a953ee)
++++ b/test/Trick1.java	(date 1683778567201)
+@@ -6,8 +6,6 @@
+ public class Trick1 {
+     @Test
+     public void setName(){
+-        String name;
+-     name= input.nextLine();
+         System.out.println("what is your name");
+         System.out.println("name");
+ 
+Index: src/SoftPractice/MethodAddition.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/SoftPractice/MethodAddition.java b/src/SoftPractice/MethodAddition.java
+new file mode 100644
+--- /dev/null	(date 1683843181623)
++++ b/src/SoftPractice/MethodAddition.java	(date 1683843181623)
+@@ -0,0 +1,11 @@
++package SoftPractice;
++
++public class MethodAddition {
++    public static void main(String[] args) {
++    }
++    public int addition(int x, int y){
++        int sum = 0;
++        if (x > 0 && y >0) sum = x + y;
++        return sum;
++    }
++}
