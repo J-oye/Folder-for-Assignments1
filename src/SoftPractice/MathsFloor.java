@@ -8,7 +8,7 @@ public class MathsFloor {
     public  static double round(double x) {
         int nearestIntegerValue =1;
         for (int i = 0; i < x; i++) {
-            nearestIntegerValue = i % 100 ;
+            nearestIntegerValue = i % 10 ;
         }
         return nearestIntegerValue;
 

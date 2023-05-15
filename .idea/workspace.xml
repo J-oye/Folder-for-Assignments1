@@ -5,38 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/src/ArraySample4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrayssss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assigments/ArrayElementsInOddPositions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assigments/ArrayElementsOfEvenPositions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assigments/ArrayReverseElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assigments/CheckingForAnElementInAList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assigments/ComputingSunOfListWithLoops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assigments/FunctionThatComputesRunningTotalOfAList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assigments/FunctionThatConcatenatesTwoLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assigments/FunctionThatReturnsList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assigments/LargestElementOfAList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assigments/PalindromeTestFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AverageExerciseWithArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandLineArgs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/MathsFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/MethodAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/MethodDivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/MethodForSubtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/RaisedToPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter6/MaximumFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter6/ParkingCharges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter6/RoundingNumbers1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter6/RoundingNumbers2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SoftPractice/MathsFloorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SoftPractice/MethodAdditionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SoftPractice/MethodDivisionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SoftPractice/MethodForSubtractionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SoftPractice/RaisedToPowerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayListCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assigments/CreditCardValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assigments/Mbti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estore/Addresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estore/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estore/CreditCardType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estore/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estore/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estore/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estore/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estore/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estore/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflection/Nigeria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoftPractice/ArrayBarChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoftPractice/ArrayPopulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoftPractice/AssignGrades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoftPractice/AverageAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoftPractice/CountOccurrenceOfNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoftPractice/EnhancedLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoftPractice/ProcessingAMultidimensionalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoftPractice/ReverseNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoftPractice/RollDie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoftPractice/SumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter7/DuplicateElimination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter7/Exercise7_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter7/Exercise7_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter7/exercise7_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection2/Amphibians.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection2/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection2/Aves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection2/Invertebrates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection2/LivingThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection2/Mammals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection2/NonLivingThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection2/Pisces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection2/Plants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection2/Reptiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection2/Things.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflection2/Vertebrate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023,_14_44_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023__14_44__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_05_2023,_11_43_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_05_2023__11_43__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraySample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySample3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ArrayExercise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Trick1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Trick1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assigments/ArrayElementsInOddPositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assigments/ArrayElementsInOddPositions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SoftPractice/MathsFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoftPractice/MathsFloor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deitel/chapter3/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter3/Clock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +68,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -88,7 +110,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/javaProjects/src/Assigments&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/javaProjects/src/Reflection&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -107,18 +129,26 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Reflection" />
       <recent name="Assigments" />
       <recent name="A" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="SoftPractice" />
       <recent name="" />
+      <recent name="SoftPractice" />
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionThatComputesRunningTotalOfAList">
-    <configuration name="ArrayElementsOfEvenPositions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assigments.ArrayElementsOfEvenPositions" />
+  <component name="RunManager" selected="Application.CreditCardValidator">
+    <configuration name="Arrayssss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrayssss" />
+      <module name="javaProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditCardValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assigments.CreditCardValidator" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +160,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputingSunOfListWithLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assigments.ComputingSunOfListWithLoops" />
+    <configuration name="DuplicateElimination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.Chapter7.DuplicateElimination" />
+      <module name="javaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="deitel.Chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mbti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assigments.Mbti" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
@@ -143,34 +186,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionThatComputesRunningTotalOfAList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assigments.FunctionThatComputesRunningTotalOfAList" />
-      <module name="javaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assigments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionThatConcatenatesTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assigments.FunctionThatConcatenatesTwoLists" />
-      <module name="javaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assigments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionThatReturnsList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assigments.FunctionThatReturnsList" />
+    <configuration name="TwelveDayOfChristmas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assigments.TwelveDayOfChristmas" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
@@ -184,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FunctionThatComputesRunningTotalOfAList" />
-        <item itemvalue="Application.ComputingSunOfListWithLoops" />
-        <item itemvalue="Application.FunctionThatReturnsList" />
-        <item itemvalue="Application.FunctionThatConcatenatesTwoLists" />
-        <item itemvalue="Application.ArrayElementsOfEvenPositions" />
+        <item itemvalue="Application.CreditCardValidator" />
+        <item itemvalue="Application.Arrayssss" />
+        <item itemvalue="Application.DuplicateElimination" />
+        <item itemvalue="Application.Mbti" />
+        <item itemvalue="Application.TwelveDayOfChristmas" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +236,9 @@
       <workItem from="1683111658530" duration="36556000" />
       <workItem from="1683292053491" duration="7648000" />
       <workItem from="1683475128192" duration="27694000" />
-      <workItem from="1683836242501" duration="61864000" />
+      <workItem from="1683836242501" duration="115027000" />
+      <workItem from="1684661888383" duration="25841000" />
+      <workItem from="1684878064581" duration="15766000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1683722166618</created>
@@ -263,7 +282,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684147364689</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1684147426602</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684147426602</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1684147504069</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684147504069</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
