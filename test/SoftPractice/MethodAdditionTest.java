@@ -15,6 +15,7 @@ class MethodAdditionTest {
         assertEquals(15,sumOf);
     }
 
+
     @Test
     public void testForNegativeNumberSummation(){
         int sumOf = add.addition(-20,-5);

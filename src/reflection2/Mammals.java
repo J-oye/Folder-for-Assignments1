@@ -1,4 +1,4 @@
 package reflection2;
 
-public class Mammals {
+public class Mammals extends Vertebrate {
 }

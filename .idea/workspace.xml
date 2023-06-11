@@ -5,59 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/src/ArrayListCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assigments/CreditCardValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assigments/Mbti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estore/Addresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estore/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estore/CreditCardType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estore/Customers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estore/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estore/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estore/ProductCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estore/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estore/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflection/Nigeria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflection/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/ArrayBarChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/ArrayPopulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/AssignGrades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/AverageAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/CountOccurrenceOfNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/EnhancedLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/ProcessingAMultidimensionalArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/ReverseNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/RollDie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/SumArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter7/DuplicateElimination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter7/Exercise7_8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter7/Exercise7_9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter7/exercise7_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection2/Amphibians.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection2/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection2/Aves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection2/Invertebrates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection2/LivingThings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection2/Mammals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection2/NonLivingThings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection2/Pisces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection2/Plants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection2/Reptiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection2/Things.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection2/Vertebrate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023,_14_44_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023__14_44__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_05_2023,_11_43_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_05_2023__11_43__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayAttempt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayClasswork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiplicationWithoutSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoftPractice/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter7/DiceRolling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter1/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/ArithmeticSmallestAndLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/BodyMassIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/DisplayingShapesWithAsterisks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/DivisibleBy3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/Exercise8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/LargestAndSmallestIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/Multiples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/StatisticsForTheGreatPyramidGiza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/TableOfSquaresAndCubes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/WorldPopulationCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/GasMileage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diary/Diary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diary/Gist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/money_matters/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/money_matters/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/money_matters/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ArrayClassworkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/HighestReOccuringNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MethodsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MultiplicationWithoutSymbolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/StackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/deitel/chapter3/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/diary/DiaryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/money_matters/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/money_matters/BankTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assigments/ArrayElementsInOddPositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assigments/ArrayElementsInOddPositions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoftPractice/MathsFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoftPractice/MathsFloor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter3/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter3/Clock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assigments/CreditCardValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assigments/CreditCardValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assigments/PositiveNegativeAndZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/PositiveNegativeAndZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SoftPractice/MethodAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoftPractice/MethodAddition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deitel/Chapter7/exercise7_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/Chapter7/exercise7_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/Arithmetic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deitel/chapter3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter3/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reflection2/Mammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reflection2/Mammals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SoftPractice/MethodAdditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/SoftPractice/MethodAdditionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tdd/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/AccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +61,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
+        <option value="module-info" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -122,37 +118,34 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="tdd" />
       <recent name="" />
+      <recent name="tdd" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="deitel" />
+      <recent name="deitel.chapter3" />
+      <recent name="reflection2" />
       <recent name="Reflection" />
       <recent name="Assigments" />
-      <recent name="A" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="deitel.chapter3" />
+      <recent name="money_matters" />
       <recent name="" />
+      <recent name="diary" />
       <recent name="SoftPractice" />
-      <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreditCardValidator">
-    <configuration name="Arrayssss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrayssss" />
-      <module name="javaProjects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreditCardValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assigments.CreditCardValidator" />
+  <component name="RunManager" selected="Application.Arithmetic">
+    <configuration name="Arithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.chapter2.Arithmetic" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assigments.*" />
+          <option name="PATTERN" value="deitel.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateElimination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deitel.Chapter7.DuplicateElimination" />
+    <configuration name="BodyMassIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.chapter2.BodyMassIndex" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deitel.Chapter7.*" />
+          <option name="PATTERN" value="deitel.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mbti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assigments.Mbti" />
+    <configuration name="DivisibleBy3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.chapter2.DivisibleBy3" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assigments.*" />
+          <option name="PATTERN" value="deitel.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +179,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwelveDayOfChristmas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assigments.TwelveDayOfChristmas" />
+    <configuration name="ModifiedCompoundInterest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.Chapter5.ModifiedCompoundInterest" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assigments.*" />
+          <option name="PATTERN" value="deitel.Chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorldPopulationCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.chapter2.WorldPopulationCalculator" />
+      <module name="javaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="deitel.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreditCardValidator" />
-        <item itemvalue="Application.Arrayssss" />
-        <item itemvalue="Application.DuplicateElimination" />
-        <item itemvalue="Application.Mbti" />
-        <item itemvalue="Application.TwelveDayOfChristmas" />
+        <item itemvalue="Application.Arithmetic" />
+        <item itemvalue="Application.BodyMassIndex" />
+        <item itemvalue="Application.WorldPopulationCalculator" />
+        <item itemvalue="Application.ModifiedCompoundInterest" />
+        <item itemvalue="Application.DivisibleBy3" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +244,15 @@
       <workItem from="1683475128192" duration="27694000" />
       <workItem from="1683836242501" duration="115027000" />
       <workItem from="1684661888383" duration="25841000" />
-      <workItem from="1684878064581" duration="15766000" />
+      <workItem from="1684878064581" duration="21647000" />
+      <workItem from="1685089917280" duration="2544000" />
+      <workItem from="1685096566970" duration="437000" />
+      <workItem from="1685106520879" duration="36240000" />
+      <workItem from="1685790942602" duration="19674000" />
+      <workItem from="1686161524657" duration="9163000" />
+      <workItem from="1686182859227" duration="5674000" />
+      <workItem from="1686248576427" duration="599000" />
+      <workItem from="1686250852305" duration="30836000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1683722166618</created>
@@ -296,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684147504069</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1684914632263</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684914632263</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +346,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/test/tdd/AccountTest.java</url>
-          <line>70</line>
+          <line>69</line>
           <properties class="tdd.AccountTest" method="withdrawMoneyTest2">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -334,7 +355,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/test/tdd/AccountTest.java</url>
-          <line>78</line>
+          <line>77</line>
           <properties class="tdd.AccountTest" method="withdrawMoneyTest3">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -345,6 +366,11 @@
           <url>file://$PROJECT_DIR$/test/TelevisionTest.java</url>
           <line>16</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/money_matters/Account.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,4 +1,4 @@
-package Assigments;
+package deitel;
 
 public class PositiveNegativeAndZeroes {
 

@@ -14,17 +14,18 @@ public class CreditCardValidator {
             for (int i = index; i < arr.length; i++) {
             }
 
-            if (Objects.equals(arr[0], "4")){
+            if (cardDetails.startsWith("4")){
                 System.out.println("Credit Card Type: visa Card");
             }
             else
-            if (Objects.equals(arr[0],"5")){
+            if (cardDetails.startsWith("5")){
                 System.out.println(" Credit Card Type: MasterCard");
             }
             else
-                if (Objects.equals(arr[0],"37")) {
+                if (cardDetails.startsWith("37")) {
                     System.out.println(" Credit Card Type:America Express Card");
-                } else if (Objects.equals(arr[0],"6")) {
+                } else
+                    if (cardDetails.startsWith("6")) {
                     System.out.println(" Credit Card Type: Discover Card");
 
                 }
@@ -34,16 +35,17 @@ public class CreditCardValidator {
         System.out.println(Arrays.toString(arr));
         System.out.println("Credit Card Digit Length:" +" "+ arr.length);
 
-    }
-    public void  CardValidation(){
-        String[]arr = new String[cardDetails.length()];
-        for (int index = 0; index < arr.length; index++) {
-            for (int i = index; i < arr.length; i++) {
-            }
-
-        }
 
     }
+//    public void  CardValidation(){
+//        String[]arr = new String[cardDetails.length()];
+//        for (int index = 0; index < arr.length; index++) {
+//            for (int i = index; i < arr.length; i++) {
+//            }
+//
+//        }
+
+    //}
 
 
 

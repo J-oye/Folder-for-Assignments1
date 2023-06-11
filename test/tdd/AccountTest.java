@@ -48,7 +48,6 @@ public class AccountTest {
 
     @Test
     public void depositNegativeValueTest2(){
-            //given
             Account davidAccount = new Account();
             //when
             davidAccount.deposit(-4_000);
