@@ -5,53 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/src/ArrayAttempt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayClasswork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiplicationWithoutSymbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter7/DiceRolling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter1/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/ArithmeticSmallestAndLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/BodyMassIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/DisplayingShapesWithAsterisks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/DivisibleBy3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/Exercise8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/LargestAndSmallestIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/Multiples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/StatisticsForTheGreatPyramidGiza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/TableOfSquaresAndCubes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/WorldPopulationCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/GasMileage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diary/Diary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diary/Gist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/money_matters/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/money_matters/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/money_matters/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ArrayClassworkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/HighestReOccuringNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MethodsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MultiplicationWithoutSymbolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/deitel/chapter3/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/diary/DiaryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/money_matters/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/money_matters/BankTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoftPractice/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/Account1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/my_phone/Contacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/my_phone/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/my_phone/PhoneBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/my_phone/ContactsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/my_phone/PhoneBookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assigments/CreditCardValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assigments/CreditCardValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assigments/PositiveNegativeAndZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/PositiveNegativeAndZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoftPractice/MethodAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoftPractice/MethodAddition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/Chapter7/exercise7_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/Chapter7/exercise7_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/Arithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter3/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reflection2/Mammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reflection2/Mammals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/SoftPractice/MethodAdditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/SoftPractice/MethodAdditionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tdd/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/money_matters/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/money_matters/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/money_matters/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/money_matters/BankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,86 +96,100 @@
       <recent name="Assigments" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="my_phone" />
       <recent name="deitel.chapter3" />
       <recent name="money_matters" />
       <recent name="" />
       <recent name="diary" />
-      <recent name="SoftPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Arithmetic">
-    <configuration name="Arithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deitel.chapter2.Arithmetic" />
+  <component name="RunManager" selected="JUnit.PhoneBookTest.checkThatICanSearchForContacts">
+    <configuration name="ContactsTest.checkThatI_can_Set_Contact_Name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deitel.chapter2.*" />
+          <option name="PATTERN" value="my_phone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="my_phone" />
+      <option name="MAIN_CLASS_NAME" value="my_phone.ContactsTest" />
+      <option name="METHOD_NAME" value="checkThatI_can_Set_Contact_Name" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BodyMassIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deitel.chapter2.BodyMassIndex" />
+    <configuration name="PhoneBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deitel.chapter2.*" />
+          <option name="PATTERN" value="my_phone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="my_phone" />
+      <option name="MAIN_CLASS_NAME" value="my_phone.PhoneBookTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisibleBy3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deitel.chapter2.DivisibleBy3" />
+    <configuration name="PhoneBookTest.checkThatICanAddManyContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deitel.chapter2.*" />
+          <option name="PATTERN" value="my_phone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="my_phone" />
+      <option name="MAIN_CLASS_NAME" value="my_phone.PhoneBookTest" />
+      <option name="METHOD_NAME" value="checkThatICanAddManyContacts" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModifiedCompoundInterest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deitel.Chapter5.ModifiedCompoundInterest" />
+    <configuration name="PhoneBookTest.checkThatICanDeleteContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deitel.Chapter5.*" />
+          <option name="PATTERN" value="my_phone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="my_phone" />
+      <option name="MAIN_CLASS_NAME" value="my_phone.PhoneBookTest" />
+      <option name="METHOD_NAME" value="checkThatICanDeleteContact" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorldPopulationCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deitel.chapter2.WorldPopulationCalculator" />
+    <configuration name="PhoneBookTest.checkThatICanSearchForContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deitel.chapter2.*" />
+          <option name="PATTERN" value="my_phone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="my_phone" />
+      <option name="MAIN_CLASS_NAME" value="my_phone.PhoneBookTest" />
+      <option name="METHOD_NAME" value="checkThatICanSearchForContacts" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Arithmetic" />
-        <item itemvalue="Application.BodyMassIndex" />
-        <item itemvalue="Application.WorldPopulationCalculator" />
-        <item itemvalue="Application.ModifiedCompoundInterest" />
-        <item itemvalue="Application.DivisibleBy3" />
+        <item itemvalue="JUnit.PhoneBookTest.checkThatICanSearchForContacts" />
+        <item itemvalue="JUnit.PhoneBookTest" />
+        <item itemvalue="JUnit.PhoneBookTest.checkThatICanDeleteContact" />
+        <item itemvalue="JUnit.PhoneBookTest.checkThatICanAddManyContacts" />
+        <item itemvalue="JUnit.ContactsTest.checkThatI_can_Set_Contact_Name" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +230,8 @@
       <workItem from="1686161524657" duration="9163000" />
       <workItem from="1686182859227" duration="5674000" />
       <workItem from="1686248576427" duration="599000" />
-      <workItem from="1686250852305" duration="30836000" />
+      <workItem from="1686250852305" duration="31980000" />
+      <workItem from="1686669650989" duration="18730000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1683722166618</created>
@@ -317,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684914632263</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1686499518907</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686499518907</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,11 +347,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/TelevisionTest.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/money_matters/Account.java</url>
