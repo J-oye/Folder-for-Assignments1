@@ -31,15 +31,18 @@ public class Car {
 
     public void setPrice(double price) {
         this.price = price;
-        if (price<=0){price=0;} else if (price>0) {
-            double newPrice=0;
-            price = newPrice;
+        if (price<0){System.out.println("please enter a valid price "); }
 
-        }
 
     }
     public double getPrice() {
         return price;
+    }
+
+    public double discount(double price,double rate){
+        double discountedRate;
+        discountedRate = price - (rate*100);
+        return discountedRate;
     }
 
 

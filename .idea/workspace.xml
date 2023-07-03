@@ -5,17 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/Account1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/my_phone/Contacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/my_phone/PhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/my_phone/PhoneBooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/my_phone/ContactsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/my_phone/PhoneBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTask/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassTask/PhoneBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/CarApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/PetrolPurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/petrol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/CheckerBoardPatternsOfAsterisks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/CreatingComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/CreditLimitCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/DanglingElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/FindLargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/FindTwoLargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/ReadingNumbersUntilSpecifiedSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/RightAngledTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/SalesCommissionCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/Statements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/TaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/ValidatingUserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/my_phone/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rraySnacks/StudentGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ClassTask/PhoneBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ClassTask/PhoneBooksTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deitel/chapter3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter3/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deitel/chapter3/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter3/Clock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deitel/chapter3/GasMileage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter4/GasMileage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/money_matters/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/money_matters/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/money_matters/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/money_matters/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/money_matters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/money_matters/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_phone/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_phone/Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_phone/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_phone/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/money_matters/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/money_matters/AccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/money_matters/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/money_matters/BankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/my_phone/PhoneBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/my_phone/PhoneBookTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +71,10 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jrt:///usr/lib/jvm/java-1.19.0-openjdk-amd64!/java.base/com/sun/crypto/provider/BlowfishConstants.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-1.19.0-openjdk-amd64!/java.base/com/sun/crypto/provider/HmacCore.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,28 +84,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/user/IdeaProjects/javaProjects/src/Reflection&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_directory_selection": "/home/user/IdeaProjects/javaProjects/src/Reflection",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -89,107 +115,93 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="deitel.chapter4" />
       <recent name="deitel" />
       <recent name="deitel.chapter3" />
       <recent name="reflection2" />
       <recent name="Reflection" />
-      <recent name="Assigments" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="my_phone" />
       <recent name="deitel.chapter3" />
+      <recent name="ClassTask" />
+      <recent name="my_phone" />
       <recent name="money_matters" />
       <recent name="" />
-      <recent name="diary" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PhoneBookTest.checkThatICanSearchForContacts">
-    <configuration name="ContactsTest.checkThatI_can_Set_Contact_Name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ReadingNumbersUntilSpecifiedSum">
+    <configuration name="CheckerBoardPatternsOfAsterisks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.chapter4.CheckerBoardPatternsOfAsterisks" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my_phone.*" />
+          <option name="PATTERN" value="deitel.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="my_phone" />
-      <option name="MAIN_CLASS_NAME" value="my_phone.ContactsTest" />
-      <option name="METHOD_NAME" value="checkThatI_can_Set_Contact_Name" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DanglingElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.chapter4.DanglingElse" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my_phone.*" />
+          <option name="PATTERN" value="deitel.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="my_phone" />
-      <option name="MAIN_CLASS_NAME" value="my_phone.PhoneBookTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBookTest.checkThatICanAddManyContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindLargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.chapter4.FindLargestNumber" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my_phone.*" />
+          <option name="PATTERN" value="deitel.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="my_phone" />
-      <option name="MAIN_CLASS_NAME" value="my_phone.PhoneBookTest" />
-      <option name="METHOD_NAME" value="checkThatICanAddManyContacts" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBookTest.checkThatICanDeleteContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindTwoLargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.chapter4.FindTwoLargestNumber" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my_phone.*" />
+          <option name="PATTERN" value="deitel.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="my_phone" />
-      <option name="MAIN_CLASS_NAME" value="my_phone.PhoneBookTest" />
-      <option name="METHOD_NAME" value="checkThatICanDeleteContact" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBookTest.checkThatICanSearchForContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadingNumbersUntilSpecifiedSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.chapter4.ReadingNumbersUntilSpecifiedSum" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="my_phone.*" />
+          <option name="PATTERN" value="deitel.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="my_phone" />
-      <option name="MAIN_CLASS_NAME" value="my_phone.PhoneBookTest" />
-      <option name="METHOD_NAME" value="checkThatICanSearchForContacts" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PhoneBookTest.checkThatICanSearchForContacts" />
-        <item itemvalue="JUnit.PhoneBookTest" />
-        <item itemvalue="JUnit.PhoneBookTest.checkThatICanDeleteContact" />
-        <item itemvalue="JUnit.PhoneBookTest.checkThatICanAddManyContacts" />
-        <item itemvalue="JUnit.ContactsTest.checkThatI_can_Set_Contact_Name" />
+        <item itemvalue="Application.ReadingNumbersUntilSpecifiedSum" />
+        <item itemvalue="Application.CheckerBoardPatternsOfAsterisks" />
+        <item itemvalue="Application.DanglingElse" />
+        <item itemvalue="Application.FindTwoLargestNumber" />
+        <item itemvalue="Application.FindLargestNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -232,6 +244,14 @@
       <workItem from="1686248576427" duration="599000" />
       <workItem from="1686250852305" duration="31980000" />
       <workItem from="1686669650989" duration="18730000" />
+      <workItem from="1687352342088" duration="122879000" />
+      <workItem from="1688365600076" duration="75000" />
+      <workItem from="1688365692745" duration="900000" />
+      <workItem from="1688366608706" duration="1175000" />
+      <workItem from="1688367800840" duration="641000" />
+      <workItem from="1688372826572" duration="325000" />
+      <workItem from="1688373168023" duration="1226000" />
+      <workItem from="1688385084259" duration="1842000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1683722166618</created>
@@ -303,7 +323,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686499518907</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687352576693</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687352576693</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687352604191</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687352604191</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1687352637087</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687352637087</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,11 +388,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/money_matters/Account.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

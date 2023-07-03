@@ -46,4 +46,8 @@ public class Clock {
                 System.out.println("invalid ");
             }
         }
+        public void displayTime(int hour,int minute,int seconds){
+            System.out.println(hour+":"+minute+":"+seconds);
+
+        }
 }

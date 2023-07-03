@@ -1,45 +1,55 @@
-//package money_matters;
-//
-//import org.junit.jupiter.api.Test;
-//
-//import static org.junit.jupiter.api.Assertions.*;
-//
-//class BankTest {
-//    Bank gtBank = new Bank();
+package money_matters;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class BankTest {
+    Bank gtBank = new Bank();
+@Test
+    public void testForBank(){
+
+    assertNotNull(gtBank);
+}
+@Test
+    public void checkThatICanRegisterANewUser(){
+    Bank gtBank = new Bank();
+    gtBank.createNewUser("john","jonny@gmail.com","08087469087");
+    Account account1 = new Account("john","jas@gmail.com","08145114");
+    assertTrue(true);
+}
+
+@Test
+    public void testThatICanRegisterCustomer(){
+    gtBank.createNewUser("john","jonny@gmail.com","08087469087");
+    gtBank.createNewUser("john","jonny@gmail.com","08087469087");
+    assertEquals(2, gtBank.getSizeOfAccount());
+}
+@Test
+    public void checkIfUserCanDeposit(){
+    gtBank.createNewUser("john","jonny@gmail.com","08087469087");
+    gtBank.accountNumber("08087469087");
+    gtBank.deposit("8087469087",  5000);
+    gtBank.setPin("8087469087","1234");
+    gtBank.withdraw("8087469087",2000,"2222");
+     assertEquals(3000,gtBank.checkBalance("8087469087","1234"));
+}
+@Test
+  public void checkIfUserCanWithDraw(){
+    gtBank.createNewUser("john","jonny@gmail.com","08087469087");
+    gtBank.deposit("8087469087",5000);
+    gtBank.setPin("8087469087","2222");
+    gtBank.withdraw("8087469087",2000,"2222");
+    assertEquals(3000,gtBank.checkBalance("8087469087","2222"));
+}
 //@Test
-//    public void testForBank(){
-//
-//    assertNotNull(gtBank);
-//}
-//@Test
-//    public void checkThatICanRegisterANewUser(){
-//    Bank gtBank = new Bank();
+//    public void checkThatUserCanTransferToAnotherAccount(){
 //    gtBank.registerNewUser("john","jonny@gmail.com","08087469087");
-//    Account account1 = new Account("john","jas@gmail.com","08145114");
-//    assertTrue(true);
-//}
+//    gtBank.deposit("8087469087",5000);
+//    gtBank.setPin("8087469087","2222");
+//    gtBank.setSenderAccountNumber("8087469087","8087469087");
+//    gtBank.transfer("8087469087","9087469080",2000,"2222");
+//    assertEquals(3000,gtBank.checkBalance("7087469087","2222"));
 //
-//@Test
-//    public void testThatICanRegisterCustomer(){
-//    gtBank.registerNewUser("john","jonny@gmail.com","08087469087");
-//    gtBank.registerNewUser("john","jonny@gmail.com","08087469087");
-//    assertEquals(2, gtBank.getSizeOfAccount());
 //}
-//@Test
-//    public void checkIfUserCanDeposit(){
-//    gtBank.registerNewUser("john","jonny@gmail.com","08087469087");
-//    gtBank.accountNumber("81865644780");
-//    gtBank.deposit("accountNumber",  3000);
-//     assertEquals(5000,gtBank.checkBalance("134"));
-//}
-//@Test
-//    public void checkIfUserCanWithDraw(){
-//    Bank gtBank = new Bank();
-//    Account account1 = new Account("134");
-//    account1.deposit(6000);
-//    account1.withdraw(3000);
-//    //gtBank.deposit("09782367",5000);
-//    //gtBank.withdraw("accountNumber",2000,2222);
-//    assertEquals(3000,account1.checkBalance("134"));
-//}
-//}
+}

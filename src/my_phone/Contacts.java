@@ -3,7 +3,7 @@ package my_phone;
 import java.util.*;
 
 public class Contacts {
-    String name;
+   private String name;
 
     public Contacts(String name, String phoneNumber, String email) {
         this.name = name;
@@ -11,8 +11,8 @@ public class Contacts {
         this.email = email;
     }
 
-    String phoneNumber;
-    String email;
+    private String phoneNumber;
+    private String email;
 
     public String getName() {
         return name;
@@ -36,6 +36,10 @@ public class Contacts {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String toString(){
+        return name +" "+ phoneNumber +" " + " "+email;
     }
 
 
