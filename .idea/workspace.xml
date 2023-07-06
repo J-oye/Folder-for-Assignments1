@@ -5,39 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/src/ClassTask/PhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassTask/PhoneBooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/CarApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/PetrolPurchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/petrol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/CheckerBoardPatternsOfAsterisks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/CreatingComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/CreditLimitCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/DanglingElse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/FindLargestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/FindTwoLargestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/ReadingNumbersUntilSpecifiedSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/RightAngledTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/SalesCommissionCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/Statements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/TaxCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter4/ValidatingUserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/my_phone/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rraySnacks/StudentGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ClassTask/PhoneBookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ClassTask/PhoneBooksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter5/Extremes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter5/IntegerDivisibleBy3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter5/TrianglePrinting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter3/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter3/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter3/Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter3/GasMileage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter4/GasMileage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/money_matters/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/money_matters/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/money_matters/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/money_matters/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/money_matters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/money_matters/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my_phone/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_phone/Contacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my_phone/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_phone/PhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/money_matters/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/money_matters/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/money_matters/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/money_matters/BankTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/my_phone/PhoneBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/my_phone/PhoneBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deitel/chapter4/CheckerBoardPatternsOfAsterisks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter4/CheckerBoardPatternsOfAsterisks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +53,10 @@
   <component name="ProjectId" id="2N6IBlCv7oTWz7I3KVvyTYYg1OA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -96,13 +70,18 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
     "last_directory_selection": "/home/user/IdeaProjects/javaProjects/src/Reflection",
+    "last_opened_file_path": "/home/user/IdeaProjects/javaProjects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.customizations",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -129,7 +108,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadingNumbersUntilSpecifiedSum">
+  <component name="RunManager" selected="Application.TrianglePrinting">
+    <configuration name="BarChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assigments.BarChart" />
+      <module name="javaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assigments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckerBoardPatternsOfAsterisks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="deitel.chapter4.CheckerBoardPatternsOfAsterisks" />
       <module name="javaProjects" />
@@ -143,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DanglingElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deitel.chapter4.DanglingElse" />
+    <configuration name="Extremes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.Chapter5.Extremes" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deitel.chapter4.*" />
+          <option name="PATTERN" value="deitel.Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindLargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deitel.chapter4.FindLargestNumber" />
+    <configuration name="IntegerDivisibleBy3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.Chapter5.IntegerDivisibleBy3" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deitel.chapter4.*" />
+          <option name="PATTERN" value="deitel.Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,25 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTwoLargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deitel.chapter4.FindTwoLargestNumber" />
+    <configuration name="TrianglePrinting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.Chapter5.TrianglePrinting" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deitel.chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadingNumbersUntilSpecifiedSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deitel.chapter4.ReadingNumbersUntilSpecifiedSum" />
-      <module name="javaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="deitel.chapter4.*" />
+          <option name="PATTERN" value="deitel.Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,15 +176,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadingNumbersUntilSpecifiedSum" />
+        <item itemvalue="Application.TrianglePrinting" />
+        <item itemvalue="Application.BarChart" />
+        <item itemvalue="Application.Extremes" />
+        <item itemvalue="Application.IntegerDivisibleBy3" />
         <item itemvalue="Application.CheckerBoardPatternsOfAsterisks" />
-        <item itemvalue="Application.DanglingElse" />
-        <item itemvalue="Application.FindTwoLargestNumber" />
-        <item itemvalue="Application.FindLargestNumber" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="" />
@@ -251,7 +233,12 @@
       <workItem from="1688367800840" duration="641000" />
       <workItem from="1688372826572" duration="325000" />
       <workItem from="1688373168023" duration="1226000" />
-      <workItem from="1688385084259" duration="1842000" />
+      <workItem from="1688385084259" duration="2850000" />
+      <workItem from="1688395381947" duration="1203000" />
+      <workItem from="1688396603509" duration="108000" />
+      <workItem from="1688396731443" duration="301000" />
+      <workItem from="1688397048714" duration="1015000" />
+      <workItem from="1688399225007" duration="15948000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1683722166618</created>
@@ -344,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687352637087</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1688388086724</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688388086724</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

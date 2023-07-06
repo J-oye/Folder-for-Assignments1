@@ -6,17 +6,13 @@ public class CheckerBoardPatternsOfAsterisks {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int number= 10;
+        int number= 0;
 
         while (number < 9){
-            System.out.println("* ");
+            System.out.print("* ");
             System.out.print(" ");
-            System.out.println();
-
-
-
-
-
+//            System.out.println();
+            number++;
 
         }
 
