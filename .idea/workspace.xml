@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter5/Extremes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter5/IntegerDivisibleBy3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter5/TrianglePrinting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter4/CheckerBoardPatternsOfAsterisks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter4/CheckerBoardPatternsOfAsterisks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +234,7 @@
       <workItem from="1688396603509" duration="108000" />
       <workItem from="1688396731443" duration="301000" />
       <workItem from="1688397048714" duration="1015000" />
-      <workItem from="1688399225007" duration="15948000" />
+      <workItem from="1688399225007" duration="16619000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1683722166618</created>
@@ -338,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688388086724</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1688634520872</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688634520872</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
