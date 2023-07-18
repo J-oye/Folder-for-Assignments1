@@ -7,7 +7,7 @@ public class SumOfSeries {
         for (int i =0;i<=n;i++){
             sum =sum + i ;
 
-            System.out.println(i + "     "+sum);
+            System.out.println(i + "      "+sum);
         }
     }
 }

@@ -16,9 +16,10 @@ public class FindTwoLargestNumber {
             if (number > largest) {
                 largest = number;
             }else
-            if (number < largest){
+            if (number < largest && number  > secondLargest){
                 secondLargest = number;
             }
+            counter++;
             System.out.println("the largest number is "+largest);
             System.out.println("the second largest number is "+ secondLargest);
         }

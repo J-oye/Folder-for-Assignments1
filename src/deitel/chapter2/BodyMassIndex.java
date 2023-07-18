@@ -9,7 +9,7 @@ public class BodyMassIndex {
         int weight = input.nextInt();
         System.out.println("enter height in meters");
         int height = input.nextInt();
-        int BMI = weight / (height * height);
+        int BMI = (weight*703) / (height * height);
         System.out.println("Body mass index is " + BMI);
     }
 }

@@ -7,10 +7,12 @@ public class TrianglePrinting {
                 System.out.print("* ");
             }
             System.out.println();
+
         }
         System.out.print(' ');
 
-        //System.out.println();
+
+        System.out.println(' ');
 
 
         for (int j = 0; j < 10; j++) {

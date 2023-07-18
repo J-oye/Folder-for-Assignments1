@@ -2,7 +2,7 @@ package deitel.Chapter5;
 
 public class ModifiedCompoundInterest {
     public static void main(String[] args){
-        double principal =1000.0;
+        double principal =1000.00;
         double rate =5;
 
         System.out.printf("%s%20s%n","Year","Amount on deposit");

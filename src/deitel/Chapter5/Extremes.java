@@ -9,7 +9,7 @@ public class Extremes {
         int userInput = input.nextInt();
         int min =0;
         int max = 0;
-        int number = 0;
+        int number ;
         for (int index = 0; index < userInput ; index++) {
             System.out.println("Enter a number  : ");
             number = input.nextInt();
@@ -18,7 +18,7 @@ public class Extremes {
                 max = number;
             }
             if (min <= number){
-                min += number;
+                min = number;
             }
 
         }

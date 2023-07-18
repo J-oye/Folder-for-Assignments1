@@ -6,6 +6,7 @@ public class PetrolPurchase {
     private int quantityOfPetrolInLitres;
     private double pricePerLitre;
     private double percentageDiscount ;
+    private double amount;
 
     public PetrolPurchase(String stationLocation, String typeOfPetrol, int quantityOfPetrolInLitres, double pricePerLitre, double percentageDiscount) {
         this.stationLocation = stationLocation;
@@ -37,6 +38,9 @@ public class PetrolPurchase {
 
     public void setQuantityOfPetrolInLitres(int quantityOfPetrolInLitres) {
         this.quantityOfPetrolInLitres = quantityOfPetrolInLitres;
+        if (quantityOfPetrolInLitres > 0){this.quantityOfPetrolInLitres = quantityOfPetrolInLitres;}else {
+            System.out.println("input correct quantity");
+        }
     }
 
     public double getPricePerLitre() {
@@ -45,6 +49,7 @@ public class PetrolPurchase {
 
     public void setPricePerLitre(double pricePerLitre) {
         this.pricePerLitre = pricePerLitre;
+        if (pricePerLitre > 0 ){getPricePerLitre();}
     }
 
     public double getPercentageDiscount() {
@@ -53,11 +58,19 @@ public class PetrolPurchase {
 
     public void setPercentageDiscount(double percentageDiscount) {
         this.percentageDiscount = percentageDiscount;
+        if (percentageDiscount > 0){getPercentageDiscount();}
     }
 
-    public double getPurchaseAmount(int quantityOfPetrolInLitres, double pricePerLitre,double percentageDiscount){
-       double amount;
-         amount = ((quantityOfPetrolInLitres * pricePerLitre)-percentageDiscount*100);
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    public double getPurchaseAmount(int quantityOfPetrolInLitres, double pricePerLitre, double percentageDiscount){
+        amount = ((quantityOfPetrolInLitres * pricePerLitre)-percentageDiscount*100);
         return amount;
     }
 
