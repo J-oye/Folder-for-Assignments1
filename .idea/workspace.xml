@@ -5,38 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e830510d-3f41-41b2-b1cc-cd4975b25acd" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/src/SoftPractice/EvenNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter5/BarChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter5/StudentGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter6/CalculatingTheSumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter2/CheckerboardPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/ComputerizationOfHealthRecords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/ComputerizationOfHealthRecordsMainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/HeartRateMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/HeartRates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/ModifiedAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deitel/chapter3/ModifiedAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/deitel/chapter3/ClockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/deitel/chapter3/ComputerizationOfHealthRecordsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/deitel/chapter3/HeartRatesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/deitel/chapter3/PetrolPurchaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EntityNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/Chapter8/HugeInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter14/example1/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter14/example1/Example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deitel/chapter14/example1/Example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/regex/RegexPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/dsa/ReverseStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/regex/RegexPracticeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/Chapter5/Extremes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/Chapter5/Extremes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/Chapter5/ModifiedCompoundInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/Chapter5/ModifiedCompoundInterest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/Chapter5/SumOfSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/Chapter5/SumOfSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/Chapter5/TrianglePrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/Chapter5/TrianglePrinting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/Account1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/DiameterCircumferenceAndAreaOfACircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/DisplayingShapesWithAsterisks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/DisplayingShapesWithAsterisks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/DivisibleBy3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/DivisibleBy3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/SeparatingDigitsOfIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/SeparatingDigitsOfIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/TableOfSquaresAndCubes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/TableOfSquaresAndCubes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter2/WorldPopulationCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter2/WorldPopulationCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter3/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter3/PetrolPurchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter3/PetrolPurchase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deitel/chapter4/FindTwoLargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deitel/chapter4/FindTwoLargestNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/deitel/chapter3/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/deitel/chapter3/CarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,27 +101,27 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dsa" />
       <recent name="deitel.chapter4" />
       <recent name="deitel" />
       <recent name="deitel.chapter3" />
       <recent name="reflection2" />
-      <recent name="Reflection" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="dsa" />
       <recent name="deitel.chapter3" />
       <recent name="ClassTask" />
       <recent name="my_phone" />
       <recent name="money_matters" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="EvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SoftPractice.EvenNumbers" />
+  <component name="RunManager" selected="Application.exercise7_11">
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.ReverseString" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SoftPractice.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTwoLargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deitel.chapter4.FindTwoLargestNumber" />
+    <configuration name="exercise7_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deitel.Chapter7.exercise7_11" />
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deitel.chapter4.*" />
+          <option name="PATTERN" value="deitel.Chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,54 +142,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.Main" />
+    <configuration name="RegexPracticeTest.matchesOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.*" />
+          <option name="PATTERN" value="regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="regex" />
+      <option name="MAIN_CLASS_NAME" value="regex.RegexPracticeTest" />
+      <option name="METHOD_NAME" value="matchesOne" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeparatingDigitsOfIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deitel.chapter2.SeparatingDigitsOfIntegers" />
+    <configuration name="ReverseStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaProjects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deitel.chapter2.*" />
+          <option name="PATTERN" value="dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComputerizationOfHealthRecordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaProjects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="deitel.chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="deitel.chapter3" />
-      <option name="MAIN_CLASS_NAME" value="deitel.chapter3.ComputerizationOfHealthRecordsTest" />
+      <option name="PACKAGE_NAME" value="dsa" />
+      <option name="MAIN_CLASS_NAME" value="dsa.ReverseStringTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseStringTest.checkThatStringIsReversed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dsa" />
+      <option name="MAIN_CLASS_NAME" value="dsa.ReverseStringTest" />
+      <option name="METHOD_NAME" value="checkThatStringIsReversed" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SeparatingDigitsOfIntegers" />
-        <item itemvalue="Application.EvenNumbers" />
-        <item itemvalue="Application.FindTwoLargestNumber" />
-        <item itemvalue="JUnit.ComputerizationOfHealthRecordsTest" />
+        <item itemvalue="Application.exercise7_11" />
+        <item itemvalue="JUnit.RegexPracticeTest.matchesOne" />
+        <item itemvalue="JUnit.ReverseStringTest.checkThatStringIsReversed" />
+        <item itemvalue="JUnit.ReverseStringTest" />
+        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +258,14 @@
       <workItem from="1689263064317" duration="44401000" />
       <workItem from="1689543489963" duration="6930000" />
       <workItem from="1689594503954" duration="618000" />
+      <workItem from="1690288508467" duration="297000" />
+      <workItem from="1690307768694" duration="830000" />
+      <workItem from="1690973937271" duration="1629000" />
+      <workItem from="1691535039740" duration="131000" />
+      <workItem from="1691678894836" duration="19932000" />
+      <workItem from="1692114059496" duration="599000" />
+      <workItem from="1692174430597" duration="1881000" />
+      <workItem from="1692268969888" duration="1220000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1683722166618</created>

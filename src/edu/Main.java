@@ -8,9 +8,11 @@ public class Main {
 //        Man m = new Man();
 //        m.setMoney(100);
 //        System.out.println(m.getMoney());
-
-        CalculatingTheSumOfDigits calculatingTheSumOfDigits = new CalculatingTheSumOfDigits();
-        calculatingTheSumOfDigits.sumOfDiGits(7631);
+//
+//        CalculatingTheSumOfDigits calculatingTheSumOfDigits = new CalculatingTheSumOfDigits();
+//        calculatingTheSumOfDigits.sumOfDiGits(7631);
 
     }
+
+
 }
